@@ -1,0 +1,6 @@
+if ($urlsegment[0] == 'dubsviewer' || $urlsegment[1] == 'dubsviewer') {
+    $url_se = ($urlsegment[0] == 'dubsviewer') ? $urlsegment[0] : $urlsegment[1];
+      $route['dubsviewer'] = "{$url_se}/users";
+    $route['dubsviewer/users'] = "{$url_se}/dubsviewer/users";
+    $route['dubsviewer/logout'] = "{$url_se}/dubsviewer/logout";
+}

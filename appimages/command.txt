@@ -1,0 +1,1 @@
+ffmpeg -i PKDKAR00001.jpg -vf scale=320:240 images320240/PKDKAR00001.jpg
